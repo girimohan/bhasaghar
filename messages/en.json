@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "home": "Home",
+    "courses": "Courses",
+    "teachers": "Teachers",
+    "schedule": "Schedule",
+    "library": "Library",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "freeTrial": "Free Trial",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "badge": "Trusted by 500+ families across Europe",
+      "title": "Your Child's Gateway to Nepali Language",
+      "subtitle": "BhasaGhar brings professional Nepali language education to diaspora kids ages 4–14. Live classes, cultural stories, and fun activities — all online.",
+      "cta": "Start Free Trial",
+      "ctaSecondary": "Watch How It Works",
+      "stat1": "500+ Students",
+      "stat2": "3 Levels",
+      "stat3": "Expert Teachers",
+      "stat4": "10+ Countries"
+    },
+    "features": {
+      "title": "Why BhasaGhar?",
+      "subtitle": "Designed for diaspora kids who want to stay connected to their heritage",
+      "f1Title": "Live Online Classes",
+      "f1Desc": "Small-group live sessions with expert Nepali teachers via Zoom.",
+      "f2Title": "Structured Curriculum",
+      "f2Desc": "3 progressive levels for ages 4–14. From alphabet to grammar.",
+      "f3Title": "Cultural Learning",
+      "f3Desc": "Stories, festivals, rhymes, and traditions woven into every lesson.",
+      "f4Title": "Progress Tracking",
+      "f4Desc": "Parents get full visibility into homework, grades, and achievements.",
+      "f5Title": "Fun & Interactive",
+      "f5Desc": "Flashcards, quizzes, badges, and stories make learning enjoyable.",
+      "f6Title": "Bilingual Platform",
+      "f6Desc": "Full English and Nepali interface. Switch anytime."
+    },
+    "levels": {
+      "title": "3 Levels for Every Age",
+      "subtitle": "Whether your child is just starting or already knows the basics",
+      "learnMore": "Learn More"
+    },
+    "testimonials": {
+      "title": "Families Love BhasaGhar",
+      "subtitle": "Stories from our community in Europe and beyond"
+    },
+    "cta": {
+      "title": "Ready to Start?",
+      "subtitle": "Join hundreds of families keeping Nepali alive for their children.",
+      "button": "Start 14-Day Free Trial",
+      "note": "No credit card required"
+    }
+  },
+  "courses": {
+    "title": "Our Courses",
+    "subtitle": "Structured Nepali language learning for every age group",
+    "level": "Level",
+    "allLevels": "All Levels",
+    "duration": "Duration",
+    "weeks": "weeks",
+    "free": "Free",
+    "enroll": "Enroll Now",
+    "viewDetails": "View Details",
+    "lessons": "lessons"
+  },
+  "teachers": {
+    "title": "Meet Our Teachers",
+    "subtitle": "Experienced, passionate Nepali language educators",
+    "bookClass": "Book a Class",
+    "languages": "Languages",
+    "specializations": "Specializations"
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "One subscription, unlimited learning for your child",
+    "monthly": "per month",
+    "mostPopular": "Most Popular",
+    "getStarted": "Get Started",
+    "freeTrial": "Start Free Trial",
+    "faqTitle": "Frequently Asked Questions",
+    "included": "What's included"
+  },
+  "blog": {
+    "title": "Blog & Resources",
+    "subtitle": "Tips, stories, and insights for raising bilingual Nepali kids",
+    "readMore": "Read More",
+    "allPosts": "All Posts",
+    "noPostsYet": "No posts published yet."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Questions? We're here to help.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent! We'll get back to you within 24 hours.",
+    "error": "Something went wrong. Please try again."
+  },
+  "about": {
+    "title": "About BhasaGhar",
+    "subtitle": "Connecting diaspora children with their Nepali roots",
+    "missionTitle": "Our Mission",
+    "mission": "BhasaGhar (Nepali for 'Language Home') was founded with one purpose: to ensure Nepali children growing up abroad never lose their mother tongue. We combine modern pedagogy with rich cultural content to make language learning a joy.",
+    "visionTitle": "Our Vision",
+    "vision": "A world where every Nepali diaspora child can speak, read, and write Nepali with confidence and pride."
+  },
+  "auth": {
+    "login": "Login to BhasaGhar",
+    "loginSubtitle": "Welcome back! Enter your details.",
+    "register": "Create an Account",
+    "registerSubtitle": "Join the BhasaGhar family today.",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "fullName": "Full name",
+    "role": "I am a",
+    "parent": "Parent",
+    "student": "Student",
+    "teacher": "Teacher",
+    "loginButton": "Login",
+    "registerButton": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot password?",
+    "orContinue": "Or continue with",
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email address",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 8 characters"
+    }
+  },
+  "dashboard": {
+    "parent": {
+      "title": "Parent Dashboard",
+      "welcome": "Welcome back",
+      "myChildren": "My Children",
+      "courses": "Enrolled Courses",
+      "schedule": "Class Schedule",
+      "homework": "Homework",
+      "progress": "Progress",
+      "profile": "Profile",
+      "subscription": "Subscription",
+      "noClasses": "No upcoming classes",
+      "noHomework": "No pending homework"
+    },
+    "student": {
+      "title": "Student Dashboard",
+      "welcome": "Hi",
+      "videos": "Videos",
+      "stories": "Stories",
+      "flashcards": "Flashcards",
+      "quizzes": "Quizzes",
+      "badges": "My Badges",
+      "joinClass": "Join Class",
+      "keepLearning": "Keep Learning!",
+      "noBadges": "No badges yet — keep learning to earn them!"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "courses": "Courses",
+    "materials": "Materials",
+    "teachers": "Teachers",
+    "students": "Students",
+    "blog": "Blog Posts",
+    "cultural": "Cultural Content",
+    "overview": "Overview",
+    "totalStudents": "Total Students",
+    "totalCourses": "Total Courses",
+    "activeEnrollments": "Active Enrollments",
+    "publishedPosts": "Published Posts"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found",
+    "level": "Level",
+    "free": "Free",
+    "eur": "EUR",
+    "viewAll": "View All",
+    "comingSoon": "Coming Soon",
+    "nepal": "Nepal",
+    "language": "Language",
+    "english": "English",
+    "nepali": "नेपाली"
+  },
+  "footer": {
+    "tagline": "Keeping Nepali alive for diaspora children worldwide.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "copyright": "© 2025 BhasaGhar. All rights reserved."
+  }
+}
