@@ -64,7 +64,7 @@ export default async function StudentDashboardPage({
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {[
           { icon: BookOpen, label: locale === 'ne' ? 'कोर्सहरू' : 'Courses', value: enrollments?.length ?? 0, color: 'text-brand-blue' },
-          { icon: Zap,      label: locale === 'ne' ? 'पाठहरू पूर्ण' : 'Lessons Done', value: progress?.filter(p => p.status === 'completed').length ?? 0, color: 'text-success' },
+          { icon: Zap,      label: locale === 'ne' ? 'पाठहरू पूर्ण' : 'Lessons Done', value: progress?.filter(p => p.completed).length ?? 0, color: 'text-success' },
           { icon: Trophy,   label: locale === 'ne' ? 'ब्याजहरू' : 'Badges', value: studentBadges?.length ?? 0, color: 'text-warning' },
           { icon: Star,     label: locale === 'ne' ? 'स्तर' : 'Level', value: (enrollments?.[0]?.courses as any)?.level ?? 1, color: 'text-brand-red' },
         ].map(({ icon: Icon, label, value, color }) => (
@@ -137,8 +137,8 @@ export default async function StudentDashboardPage({
                           {p.last_accessed_at ? formatDate(p.last_accessed_at, locale) : ''}
                         </p>
                       </div>
-                      <Badge variant={p.status === 'completed' ? 'green' : 'default'} className="flex-shrink-0">
-                        {p.status}
+                      <Badge variant={p.completed ? 'green' : 'default'} className="flex-shrink-0">
+                        {p.completed ? 'done' : 'in progress'}
                       </Badge>
                     </div>
                   )
@@ -165,11 +165,11 @@ export default async function StudentDashboardPage({
                   return (
                     <div key={sb.id} className="flex flex-col items-center text-center gap-2">
                       <div className="w-14 h-14 rounded-2xl bg-warning/10 flex items-center justify-center text-2xl">
-                        {badge?.icon_url ? (
-                          <img src={badge.icon_url} alt={badge.name} className="w-10 h-10 object-contain" />
+                        {badge?.image_url ? (
+                          <img src={badge.image_url} alt={badge.name_en} className="w-10 h-10 object-contain" />
                         ) : '🏆'}
                       </div>
-                      <span className="text-xs font-medium text-neutral-700 leading-tight">{badge?.name}</span>
+                      <span className="text-xs font-medium text-neutral-700 leading-tight">{badge?.name_en}</span>
                     </div>
                   )
                 })}

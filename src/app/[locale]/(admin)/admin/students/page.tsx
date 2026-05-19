@@ -49,8 +49,8 @@ export default async function AdminStudentsPage({
                         </td>
                         <td className="py-3 pr-4 text-neutral-500">{s.email}</td>
                         <td className="py-3 pr-4">
-                          {sp?.current_level ? (
-                            <Badge variant="blue">Level {sp.current_level}</Badge>
+                          {sp?.level ? (
+                            <Badge variant="blue">Level {sp.level}</Badge>
                           ) : '—'}
                         </td>
                         <td className="py-3 text-neutral-400 text-xs">
